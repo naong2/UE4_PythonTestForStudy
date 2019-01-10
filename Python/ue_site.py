@@ -36,7 +36,7 @@ def fill_toolbar(toolbar):
 	#icon1 = FSlateIcon('PyStyle', 'SolidBrush001')
 	icon2 = FSlateIcon('PyStyle', 'ImageBrush001')
 	#toolbar.add_tool_bar_button('button001', 'Button001', 'Button001 tooltip', icon1, lambda: ue.log('Button001'))
-	toolbar.add_tool_bar_button('PyQt5Sample', 'PyQt5Sample', '마우스 오버하면 나오는 문구', icon2, lambda: ue.exec('Sample_PyQt.py'))
+	toolbar.add_tool_bar_button('PyQt5Sample', 'PyQt5Sample', '마우스 오버하면 나오는 문구', icon2, lambda: ue.exec('/Naong2/Sample_PySide.py'))
 
 ue.add_menu_extension('TestMenu 01', dumb)
 
