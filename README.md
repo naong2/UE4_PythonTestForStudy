@@ -1,4 +1,4 @@
-# UE4 Python 프러그인 버전
+# UE4 Python 플러그인 버전
 * UE4 4.21 버전 
 * UnrealEnginePython #539 - 2019년 01월 10일자 버전
 * https://github.com/20tab/UnrealEnginePython
@@ -12,7 +12,7 @@
 * pandas-0.20.3
 * SpeechRecognition-3.8.1
 
-# 에디터 실행 전 수정사항
+# 에디터 실행 전 DefaultEngine.ini 수정사항
 * Config/DefaultEngine.ini 을 자신의 환경에 맞게 수정해야함
 * Home = 자신의 파이선 환경 패스
 * ScriptsPath = ue_site.py 파일이 있는 스크립트 루트
