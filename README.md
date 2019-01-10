@@ -3,7 +3,7 @@
 * UnrealEnginePython #539 - 2019년 01월 10일자 버전
 * https://github.com/20tab/UnrealEnginePython
 
-# 저의 파이선 환경
+# My파이선 환경
 * Python 3.6
 * PyQt5 5.11.3
 * PySide2 5.12.0
