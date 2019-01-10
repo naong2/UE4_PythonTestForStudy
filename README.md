@@ -15,3 +15,10 @@ Home=G:/Anaconda3
 ScriptsPath=G:/UE4_PythonTest/Python
 AdditionalModulesPath=G:/UE4_PythonTest/Python/MyModule
 ```
+
+# 스크립트 소개
+* ue_site.py 버튼 메뉴 추가 샘플
+* kaiju_fbximport.py  자동화 튜토리얼의 일부
+* Renamer_Replace.py 리네임
+* Sample_PyQt.py  PyQt5 샘플윈도우창
+* PythonScript2.py  추가모듈패스 설정후 불러오기 테스트
