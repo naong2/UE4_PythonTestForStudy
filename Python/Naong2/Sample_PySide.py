@@ -1,7 +1,6 @@
 ﻿import ueqt
 from PySide2 import QtCore, QtWidgets, QtGui
 import unreal_engine as ue
-import ue_asyncio
 
 from unreal_engine import FARFilter
 
@@ -22,11 +21,11 @@ class MyWidget(QtWidgets.QWidget):
             try:
                 thumbnail = asset_data.get_thumbnail()
             except:
-                continue
+                break
             label = QtWidgets.QLabel()
             data = thumbnail.get_uncompressed_image_data()
-            image = QtGui.QImage(data, 128, 128, QtGui.QImage.Format_RGB32)
-            label.setPixmap(QtGui.QPixmap.fromImage(image).scaled(128, 128))
+            image = QtGui.QImage(data, 256, 256, QtGui.QImage.Format_RGB32)
+            label.setPixmap(QtGui.QPixmap.fromImage(image).scaled(256, 256))
             self.layout.addWidget(label)
 
         self.content.setLayout(self.layout)
@@ -38,4 +37,5 @@ widget.resize(800, 600)
 widget.show()
 
 root_window = ue.get_editor_window()
+
 root_window.set_as_owner(widget.winId())
