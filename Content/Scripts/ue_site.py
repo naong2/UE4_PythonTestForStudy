@@ -1,4 +1,4 @@
-import sys
+﻿import sys
 import os.path
 import unreal_engine as ue
 
@@ -38,7 +38,7 @@ def open_menu(menu):
 def fill_toolbar(toolbar):
 	icon1 = FSlateIcon('PyStyle', 'SolidBrush001')
 	icon2 = FSlateIcon('PyStyle', 'ImageBrush001')
-	toolbar.add_tool_bar_button('리네임툴', '리네임툴', 'Button001 tooltip', icon1, lambda: ue.exec('Renamer_Replace.py'))
+	toolbar.add_tool_bar_button('리네임툴', '리네임툴', 'Button001 tooltip', icon1, lambda: ue.exec('Sample_PyQt.py'))
 	#toolbar.add_tool_bar_button('리네임툴', '리네임툴', '아직 Prefix 추가만 사용 가능', icon2, lambda: ue.exec('Renamer_Tutorial.py'))
 
 ue.add_menu_extension('Python Tools Menu', dumb)
